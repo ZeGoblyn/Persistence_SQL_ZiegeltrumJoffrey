@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/mamarge"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User name" />
+
+        <EditText
+            android:id="@+id/usernameEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            android:hint="Nom"/>
+
+        <TextView
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password" />
+
+        <EditText
+            android:id="@+id/passwordEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            android:hint="Password"/>/>
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email" />
+
+        <EditText
+            android:id="@+id/emailEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            android:hint="Email"/>
+
+        <TextView
+            android:id="@+id/localite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User name" />
+
+        <EditText
+            android:id="@+id/editLocalite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            android:hint="Localité"/>
+
+        <TextView
+            android:id="@+id/DDn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date naissance" />
+
+        <EditText
+            android:id="@+id/editDdn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            android:hint="Date naissance"/>
+
+        <Button
+            android:id="@+id/buttonRegistre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Register" />
+
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Login" />
+    </LinearLayout>
+</RelativeLayout>
